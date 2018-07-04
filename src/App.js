@@ -6,6 +6,7 @@ import Navigation from './Navigation.js';
 import About from './About.js';
 import Design from './Design.js';
 import Development from './Development.js';
+import Footer from './Footer.js';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
          <Route exact path='/development' component={Development} />
          <Route exact path='/design' component={Design} />
          <Route exact path='/about' component={About} />
+         <Footer />
       </div>
     );
   }

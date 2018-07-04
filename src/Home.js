@@ -38,10 +38,17 @@ class Home extends Component{
                      </p>
                   </Col>
                </Row>
+               </Container>
                <h1 className="center">Designer</h1>
-               <Row>
-
-               </Row>
+               <div className="scrolling-wrapper">
+                  <img className="design-img" src={require('./images/download.jpg')} alt="design" />
+                  <img className="design-img" src={require('./images/download.jpg')} alt="design" />
+                  <img className="design-img" src={require('./images/download.jpg')} alt="design" />
+                  <img className="design-img" src={require('./images/download.jpg')} alt="design" />
+                  <img className="design-img" src={require('./images/download.jpg')} alt="design" />
+                  <img className="design-img" src={require('./images/download.jpg')} alt="design" />
+               </div>
+               <Container>
                <h1 className="center">Hobbies</h1>
                <Row>
                   <Col className="center" md="3" sm="12">
@@ -118,6 +125,26 @@ class Home extends Component{
                         eu pede mollis pretium. Integer tincidunt. Cras dapibus.
                         Vivamus elementum semper nisi.
                      </p>
+                  </Col>
+               </Row>
+               <Row>
+                  <Col className="center" sm="12" md="6">
+                     <h1>Lets Work Together!</h1>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                        natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa
+                        quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                        vulputate eget, arcu. In enim justo, rhoncus ut,
+                        imperdiet a, venenatis vitae, justo. Nullam dictum felis
+                        eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                        Vivamus elementum semper nisi.
+                     </p>
+                  </Col>
+                  <Col className="d-md-block d-sm-none center" md="6">
+                     <img className="profile-img" src={require('./images/download.jpg')} alt="profile photo" />
                   </Col>
                </Row>
             </Container>
