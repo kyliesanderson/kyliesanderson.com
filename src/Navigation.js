@@ -24,6 +24,7 @@ class Navigation extends Component {
             {/*Toggler and Collapse help when scaling down to mobile*/}
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
+               {/*ml-auto class name aligns navigation to right*/}
                <Nav className="ml-auto" navbar>
                   <NavItem>
                      <NavLink href="/development">Development</NavLink>
